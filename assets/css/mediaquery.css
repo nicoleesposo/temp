@@ -1,0 +1,117 @@
+
+
+@media (max-width: 1199px) {
+    #about {
+        margin: 0;
+    }
+
+    .svg-header-container img { 
+        height: 75%
+    }
+
+    .header-content-heading {
+        font-size: 40px;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+
+    nav {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    img.nav-logo {
+        height: 60px;
+        width: auto;
+    }
+
+    nav .nav-link {
+        padding: 20px 1px ;
+    }
+
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-text{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item {
+        padding-left: 0px
+    }
+
+    
+    .svg-header-container img { 
+        height: 70%; 
+    }
+
+    .header-content-heading {
+        padding-top: 10px;
+        font-size: 33px;
+    }
+
+    .company-img {
+        height: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .svg-header-container img {
+        
+        height: 65%;
+    }
+
+    .header-content-heading {
+        font-size: 34px;
+    }
+
+    .header-content-text {
+        font-size: 15px;
+    }
+
+    .search-container {
+        border-radius: 35px;
+        padding: 0px;
+        padding-left: 15px;
+        margin-top: 24px;
+    }
+
+    .form-control {
+        font-size: 0.7rem !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .header-content-container {
+        padding-top: 30px;
+    }
+
+    .svg-header-container {
+        height: 50vh;
+    }
+
+    .svg-header-container img {
+        width: 100% ; 
+        height: 100%;
+    }
+
+    .bg-violet {
+        height: 90vh;
+    }
+
+    .sm-height {
+        height: 40px ; 
+    }
+
+}
